@@ -1,0 +1,28 @@
+<mavlink>
+
+    <include>common.xml</include>
+
+    <dialect>42</dialect>
+
+    <enums>
+        <enum name="MAV_CMD">
+            <entry value="31200" name="MAV_CMD_DO_RELEASE_MECHANISM_START">
+                <description>Command for starting the mechanistm</description>
+            </entry>
+            <entry value="31201" name="MAV_CMD_DO_RELEASE_MECHANISM_STOP">
+                <description>Command for stoping the mechanistm</description>
+            </entry>
+            <entry value="31202" name="MAV_CMD_DO_RELEASE_MECHANISM_RELEASE">
+                <description>Command for stoping the mechanistm</description>
+            </entry>
+            <entry value="31203" name="MAV_CMD_DO_RELEASE_MECHANISM_DONUT_TURN">
+                <description>DONUT turning</description>
+            </entry>
+        </enum>
+    </enums>
+
+    <messages>
+        <!-- Messages are defined here (optional) -->
+    </messages>
+
+</mavlink>

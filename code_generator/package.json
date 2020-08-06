@@ -1,0 +1,14 @@
+{
+  "name": "code_generator",
+  "version": "1.0.0",
+  "description": "generator of code from xml file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vuk Pajovic",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
