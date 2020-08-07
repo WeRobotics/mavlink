@@ -7,22 +7,70 @@
     <enums>
         <enum name="MAV_CMD">
             <entry value="31200" name="MAV_CMD_DO_ELEVATOR_MECHANISM_MOVE_FORWARD">
-                <description>Command for starting the mechanistm</description>
+                <description>Move forward small step</description>
             </entry>
             <entry value="31201" name="MAV_CMD_DO_ELEVATOR_MECHANISM_MOVE_BACKWARD">
-                <description>Command for stoping the mechanistm</description>
+                <description>Move backward small step</description>
             </entry>
             <entry value="31202" name="MAV_CMD_DO_ELEVATOR_MECHANISM_GO_TO_FLIP_STATE">
-                <description>Command for stoping the mechanistm</description>
+                <description>Move mechanism to a flip state</description>
             </entry>
-            <entry value="31203" name="MAV_CMD_DO_RELEASE_NEXT_BUCKET">
-                <description>DONUT turning</description>
+            <entry value="31203" name="MAV_CMD_DO_ELEVATOR_MECHANISM_RELEASE_NEXT_BUCKET">
+                <description>Release next bucket</description>
             </entry>
-            <entry value="31204" name="MAV_CMD_DO_RELEASE_ALL_BUCKETS">
-                <description>DONUT turning</description>
+            <entry value="31204" name="MAV_CMD_DO_ELEVATOR_MECHANISM_RELEASE_ALL_BUCKETS">
+                <description>Release all buckets</description>
+            </entry>
+            <entry value="31205" name="MAV_CMD_DO_DONUT_MECHANISM_PISTON_HOME">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31206" name="MAV_CMD_DO_DONUT_MECHANISM_PISTON_MOVE_UP">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31207" name="MAV_CMD_DO_DONUT_MECHANISM_PISTON_MOVE_DOWN">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31208" name="MAV_CMD_DO_DONUT_MECHANISM_PISTON_STOP">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31209" name="MAV_CMD_DO_DONUT_MECHANISM_SET_MAIN_FAN">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31210" name="MAV_CMD_DO_DONUT_MECHANISM_SET_VIBRATION">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31211" name="MAV_CMD_DO_DONUT_MECHANISM_SET_START_POSITION">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31212" name="MAV_CMD_DO_DONUT_MECHANISM_OPEN_TOP">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31213" name="MAV_CMD_DO_DONUT_MECHANISM_CLOSE_TOP">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31214" name="MAV_CMD_DO_DONUT_MECHANISM_OPEN_BOTTOM">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31215" name="MAV_CMD_DO_DONUT_MECHANISM_CLOSE_BOTTOM">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31216" name="MAV_CMD_DO_DONUT_MECHANISM_HEATLOCK_STEP">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31217" name="MAV_CMD_DO_DONUT_MECHANISM_INITIALIZE">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31218" name="MAV_CMD_DO_DONUT_MECHANISM_START">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31219" name="MAV_CMD_DO_DONUT_MECHANISM_RELEASE">
+                <description>Donut mechanism</description>
+            </entry>
+            <entry value="31220" name="MAV_CMD_DO_WMP_MECHANISM_SHUTDOWN">
+                <description>Donut mechanism</description>
             </entry>
         </enum>
-    </enums>
+    </enums> 
 
     <messages>
         <!-- Messages are defined here (optional) -->
