@@ -6,16 +6,19 @@
 
     <enums>
         <enum name="MAV_CMD">
-            <entry value="31200" name="MAV_CMD_DO_RELEASE_MECHANISM_START">
+            <entry value="31200" name="MAV_CMD_DO_ELEVATOR_MECHANISM_MOVE_FORWARD">
                 <description>Command for starting the mechanistm</description>
             </entry>
-            <entry value="31201" name="MAV_CMD_DO_RELEASE_MECHANISM_STOP">
+            <entry value="31201" name="MAV_CMD_DO_ELEVATOR_MECHANISM_MOVE_BACKWARD">
                 <description>Command for stoping the mechanistm</description>
             </entry>
-            <entry value="31202" name="MAV_CMD_DO_RELEASE_MECHANISM_RELEASE">
+            <entry value="31202" name="MAV_CMD_DO_ELEVATOR_MECHANISM_GO_TO_FLIP_STATE">
                 <description>Command for stoping the mechanistm</description>
             </entry>
-            <entry value="31203" name="MAV_CMD_DO_RELEASE_MECHANISM_DONUT_TURN">
+            <entry value="31203" name="MAV_CMD_DO_RELEASE_NEXT_BUCKET">
+                <description>DONUT turning</description>
+            </entry>
+            <entry value="31204" name="MAV_CMD_DO_RELEASE_ALL_BUCKETS">
                 <description>DONUT turning</description>
             </entry>
         </enum>
