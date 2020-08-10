@@ -69,7 +69,7 @@
             <entry value="31220" name="MAV_CMD_DO_WMP_MECHANISM_SHUTDOWN">
                 <description>Donut mechanism</description>
             </entry>
-            <entry value="31202" name="MAV_CMD_DO_ELEVATOR_MECHANISM_SET_ZERO">
+            <entry value="31221" name="MAV_CMD_DO_ELEVATOR_MECHANISM_SET_ZERO">
                 <description>Sending command to mark zero position of the buckets</description>
             </entry>
         </enum>
