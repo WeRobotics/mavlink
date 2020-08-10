@@ -72,6 +72,9 @@
             <entry value="31221" name="MAV_CMD_DO_ELEVATOR_MECHANISM_SET_ZERO">
                 <description>Sending command to mark zero position of the buckets</description>
             </entry>
+            <entry value="31222" name="MAV_CMD_DO_ELEVATOR_MECHANISM_LOAD_NEXT_BUCKET">
+                <description>Sending command to mark zero position of the buckets</description>
+            </entry>
         </enum>
     </enums> 
 
