@@ -75,6 +75,12 @@
             <entry value="31222" name="MAV_CMD_DO_ELEVATOR_MECHANISM_LOAD_NEXT_BUCKET">
                 <description>Sending command to mark zero position of the buckets</description>
             </entry>
+            <entry value="31223" name="MAV_CMD_DO_ELEVATOR_MECHANISM_RESET">
+                <description>Reseting the state machine of the elevator mechanism</description>
+            </entry>
+            <entry value="31224" name="MAV_CMD_DO_DONUT_MECHANISM_SET_OUTPUT_FAN">
+                <description>Reseting the state machine of the elevator mechanism</description>
+            </entry>
         </enum>
     </enums> 
 
