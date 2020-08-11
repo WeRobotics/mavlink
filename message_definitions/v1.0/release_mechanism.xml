@@ -81,6 +81,12 @@
             <entry value="31224" name="MAV_CMD_DO_DONUT_MECHANISM_SET_OUTPUT_FAN">
                 <description>Reseting the state machine of the elevator mechanism</description>
             </entry>
+            <entry value="31225" name="MAV_CMD_DO_DONUT_MECHANISM_SET_SENSOR_THRESHOLD">
+                <description>Sets threshold</description>
+            </entry>
+            <entry value="31226" name="MAV_CMD_DO_ELEVATOR_MECHANISM_INITIALIZE">
+                <description>Initialize elevator mechanism</description>
+            </entry>
         </enum>
     </enums> 
 
