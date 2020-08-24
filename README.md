@@ -1,15 +1,28 @@
-[![Build Status](https://travis-ci.org/mavlink/mavlink.svg?branch=master)](https://travis-ci.org/mavlink/mavlink)
+/*! \page page_generate_project Generate_mavlink_libraries
 
-## MAVLink ##
+ \section Description
+ Generate mavlink libraries is a project which will generate and put mavlink libraries inside nodejs_onboard_router project and tcp_commander. Also it will create and place a file with commands created by mavlink generator for javascript webinterface, inside javascript_webinterface project. The code could be found here:\n
+<a href="https://github.com/WeRobotics/mavlink">werobotics_mavlink</a>
+\n
+ \section Installation on the machine
 
-MAVLink -- Micro Air Vehicle Message Marshalling Library.
+There should be python installed on the machine where the generator is run. Also, nodejs and npm should be installed. 
 
-MAVLink is a very lightweight, header-only message library for communication between drones and/or ground control stations. It consists primarily of message-set specifications for different systems ("dialects") defined in XML files, and Python tools that convert these into appropriate source code for [supported languages](https://mavlink.io/en/#supported_languages). There are additional Python scripts providing examples and utilities for working with MAVLink data.
+\section Running a generator
 
-> **Tip** MAVLink is very well suited for applications with very limited communication bandwidth. Its reference implementation in C is highly optimized for resource-constrained systems with limited RAM and flash memory. It is field-proven and deployed in many products where it serves as interoperability interface between components of different manufacturers.
+To generate mavlink libraries for nodejs_onboard_router and tcp_commander run inside /generate_project:\n
+./generate_rasp.sh
 
-Key Links:
-* [Documentation/Website](https://mavlink.io/en/) (mavlink.io/en/)
-* [Discussion/Support](https://mavlink.io/en/#support) (Slack)
-* [Contributing](https://mavlink.io/en/contributing/contributing.html)
-* [License](https://mavlink.io/en/#license)
+To generate mavlink commands for javascript_interface project run inside /generate_project:\n
+./generate_interface.sh
+
+
+
+
+
+
+
+
+
+
+*/
